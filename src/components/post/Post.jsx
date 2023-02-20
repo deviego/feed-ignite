@@ -38,7 +38,10 @@ export const Post = () => {
       <form className={style.commentForm}>
         <strong>Deixe seu feedback</strong>
         <textarea placeholder="Deixe um comentário"/>
-        <button type="submit">Comentar</button>
+        <footer>
+          <button type="submit">Comentar</button>
+        </footer>
+        
       </form>
     </article>
   );
