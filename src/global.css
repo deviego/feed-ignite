@@ -10,6 +10,7 @@
 
   --green-300: #00837e;
   --green-500: #00875f;
+  --red-500: #871f00;
 }
 :focus{
   outline: none;
