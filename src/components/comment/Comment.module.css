@@ -26,6 +26,10 @@
   justify-content: space-between;
 }
 
+.commentContent p{
+  margin-top: 1.5rem;
+}
+
 .commentContent strong {
   display: block;
   font-size: 0.875rem;
@@ -55,6 +59,7 @@
   margin-top: 1rem;
   color: var(--gray-400);
 }
+
 .commentBox footer {
   margin-top: 1rem;
 }
