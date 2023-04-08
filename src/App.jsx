@@ -19,7 +19,7 @@ function App() {
       publishedAt: new Date('2023-02-20 20:00:00')
     },
     {
-      id:3,
+      id:2,
       author: {
         avatarUrl: 'https://github.com/maykbrito.png',
         name: 'Mayk Brito',
@@ -42,6 +42,7 @@ function App() {
     <main>
       {post.map(post => {
         return <Post
+          key={post.id}
           author={post.author}
           content= {post.content}
           publishedAt={post.publishedAt}
